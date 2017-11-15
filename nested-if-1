@@ -1,3 +1,4 @@
+###ACCEPT MARKS FROM USER AND PRINT THE GRADE###
 #Collect value from user
 m=int (input('Enter your marks: \n'))
 #Check whether the marks entered are valid or not
