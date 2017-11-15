@@ -1,0 +1,18 @@
+#Collect value from user
+m=int (input('Enter your marks: \n'))
+#Check whether the marks entered are valid or not
+if m>=0 and m<=100:
+    if m<=50:
+        print ('F Grade')
+    elif m<=60:
+        print ('E Grade')
+    elif m<=70:
+        print ('D Grade')
+    elif m<=80:
+        print ('C Grade')
+    elif m<=90:
+        print ('B Grade')
+    elif m<=100:
+        print ('A Grade')
+else:
+    print ('Please enter a valid number between \'0\' and \'100\'')
