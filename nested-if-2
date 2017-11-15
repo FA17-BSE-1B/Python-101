@@ -1,0 +1,11 @@
+###CODE TO ACCEPT TWO VALUES FROM USER AND PRINT THE LARGEST###
+#Accept two values from user
+a=int(input('Enter first number:\n'))
+b=int(input('Enter second number:\n'))
+#Show which value is the largest
+if a>b:
+    print ('The largest number is', a)
+elif b>a:
+    print ('The largest number is', + b)
+else:
+    print ("Both entered values are equal")
