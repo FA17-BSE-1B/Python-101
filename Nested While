@@ -1,0 +1,12 @@
+## Lab Task 1
+
+i = 10
+while i <= 20:
+    print(i, ":", end='')
+    j = 1
+    while j <= i:
+        if i % j == 0:  # If a number can fully divide "i"
+            print(j, "", end='')  # That number is a factor of "i", print it
+            j += 1
+    print()
+    i += 1    
