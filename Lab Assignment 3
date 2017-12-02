@@ -1,0 +1,14 @@
+    
+    while True:
+    
+        num = int(input("Enter a number: "))
+        factors = 0
+        
+        for j in range(2,i):
+            if num % j == 0:
+                factors = 3
+                break
+                
+        if factors == 2:
+            print("Prime number entered, program terminated")
+            break
