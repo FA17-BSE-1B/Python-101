@@ -1,0 +1,12 @@
+## Task 2
+    num = int(0)
+    while True:
+        num = int(input("Enter a number: "))
+        if num < 0:
+            break
+        j = 1
+        factorial = 1
+        while j <= num:
+            factorial = factorial * j
+            j += 1
+        print("Factorial of,", num, "is:", factorial)

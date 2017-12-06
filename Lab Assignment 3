@@ -1,0 +1,12 @@
+while True:
+     num = int(input("Enter a number: "))
+     j = 2
+     factors = 2    # The entered number already has 2 known factors, one the number itself and the other is number "1"
+     while j < num:
+         if num % j == 0:
+            factors == 3
+            break
+         j += 1
+     if factors == 2:
+        print("Prime number entered, program terminated")
+        break
